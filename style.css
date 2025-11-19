@@ -8,4 +8,35 @@ a {
 }
 a:hover {
   color: black;
+}
+
+#demo .minibox {
+  font-size: 20px;
+  border: 2px solid red;
+  width: 70px;
+  height: 70px;
+}
+@media screen and (max-width: 600px) {
+  #demo .minibox {
+    font-size: 50px;
+    border: 7px solid black;
+    width: 100px;
+    height: 100px;
+    transition: 3s;
+  }
+  #demo .minibox:hover {
+    width: 200px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  #demo .minibox {
+    font-size: 70px;
+    border: 7px solid green;
+    width: 150px;
+    height: 150px;
+    transition: 3s;
+  }
+  #demo .minibox:hover {
+    border: 10px solid green;
+  }
 }/*# sourceMappingURL=style.css.map */
