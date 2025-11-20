@@ -1,0 +1,45 @@
+#res
+    .box
+        .minibox
+            font-size: 30px
+            background-color: #fa0000b6
+            border: 2px solid #070101ff
+            color: #00520eff
+            width: 50px
+            height: 50px
+
+        @media (min-width:400px)
+            .minibox
+                font-size: 50px
+                background-color: #005c0fb6
+                border: 6px solid #4407ecff
+                color: #c8f500ff
+                width: 100px
+                height: 100px
+
+        @media (min-width:700px)
+            .minibox
+                font-size: 80px
+                background-color: #0097fcb6
+                border: 6px solid #6b084aff
+                color: #c8f500ff
+                width: 150px
+                height: 150px
+                &:hover
+                    border: 15px solid #000000ff
+                    background-color: #02085cff
+                    color: #ffff
+
+        @media (min-width:1000px)
+            .minibox
+                font-size: 40px
+                background-color: #29c75db6
+                border: 10px solid #6e0783ff
+                color: #ec6e07ff
+                width: 200px
+                height: 200px
+                h1
+                    &:hover
+                        font-size: 120px
+                        color: #ffff
+                        transition: 3s
