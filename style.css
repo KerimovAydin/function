@@ -7,6 +7,7 @@ body {
   padding: 50px;
 }
 #respon .box {
+  width: 800px;
   position: relative;
 }
 #respon .box .minibox {
@@ -18,10 +19,10 @@ body {
   padding: 10px;
   margin: 5px;
 }
-#respon .box .res {
-  position: absolute;
-  top: 360px;
-  left: 350px;
+#respon .box .fix {
+  position: fixed;
+  top: 100px;
+  left: 1200px;
 }
 
 #expert {
