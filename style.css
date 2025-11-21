@@ -3,6 +3,9 @@ body {
   font-weight: 500;
 }
 
+#respon {
+  padding: 50px;
+}
 #respon .box .minibox {
   border: 4px solid #e2abe9;
   font-size: 60px;
@@ -47,5 +50,89 @@ body {
     width: 150px;
     height: 70px;
     border: 8px solid #7f068f;
+  }
+}
+
+#expert {
+  padding: 50px;
+}
+#expert .box .minibox {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #ff0000;
+  background-color: #050130;
+  color: white;
+  font-size: 40px;
+  transition: 3s;
+}
+#expert .box .minibox:hover {
+  border: 6px solid #00690e;
+  border-radius: 80px;
+  background-color: #800055;
+  color: #311d1d;
+}
+@media (max-width: 800px) {
+  #expert .box .minibox {
+    width: 80px;
+    height: 80px;
+    border: 10px soldi #000000;
+    background-color: #00a2ff;
+    color: #b81010;
+    font-size: 20px;
+    transition: 3s;
+  }
+  #expert .box .minibox:hover {
+    border: 6px solid rgba(41, 44, 63, 0.2274509804);
+    border-radius: 80px;
+    background-color: #2db856;
+    color: #000000;
+  }
+}
+@media (max-width: 500px) {
+  #expert .box .minibox {
+    width: 60px;
+    height: 60px;
+    border: 10px soldi #000000;
+    background-color: #00a2ff;
+    color: #d6d3d3;
+    font-size: 15px;
+    transition: 3s;
+  }
+  #expert .box .minibox:hover {
+    width: 400px;
+    background-color: #000e4e;
+    color: #000000;
+  }
+}
+
+#batn {
+  padding: 50px;
+}
+#batn .box .btn {
+  font-size: 30px;
+  background-color: #2b0063;
+  color: white;
+  padding: 20px 20px;
+  width: 150px;
+  height: 100px;
+}
+#batn .box .btn:hover {
+  width: 300px;
+  background-color: #ff0000;
+  color: white;
+}
+@media (max-width: 500px) {
+  #batn .box .btn {
+    font-size: 30px;
+    background-color: #b18a09;
+    color: #4d2c2c;
+    padding: 20px 20px;
+    width: 150px;
+    height: 100px;
+  }
+  #batn .box .btn:hover {
+    border: 10px sild #000000;
+    background-color: #00663f;
+    color: white;
   }
 }/*# sourceMappingURL=style.css.map */
